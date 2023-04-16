@@ -4,11 +4,11 @@ Coconut
 Coconut is an object-oriented runtime, cross-platform, written in modern C++ that adds Smalltalk-style objects, dynamic typing and messaging features ; 
 with a strong emphasis on concurrency ability, the subscripting side of things e.g `feel like scripting`, Coconut is more than just yet-another-Object 
 framework: it adds a syntax within the syntax, close to a meta-programming approach (something like an embedded meta-language mixed to a domain-specific
-language) what we named mainly Features; `@see` [coconut/runtime/Features.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/runtime/Features.hpp).
+language) what we named mainly Features; `@see` [coconut/runtime/Features.hpp](https://github.com/mu578/coconut/blob/master/coconut/runtime/Features.hpp).
 
 Coconut implements type introspection (e.g knowing type [parent-type and ancestors-type, properties] of an object at runtime) and a tiny barebones reflection system: 
 a meta-object protocol (MOP). A very simplistic and lightweight, yet powerful, meta-data set: hierarchy and context can be known at anytime which is essential 
-for, in case of, serialization, designing a UI Toolkit and more; `@see` [coconut/runtime/details/nutrt-nucleus.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/runtime/details/nutrt-nucleus.hpp)
+for, in case of, serialization, designing a UI Toolkit and more; `@see` [coconut/runtime/details/nutrt-nucleus.hpp](https://github.com/mu578/coconut/blob/master/coconut/runtime/details/nutrt-nucleus.hpp)
 
 -----------------------------------------------------------------------------------------------
 
@@ -160,7 +160,7 @@ for (std::size_t i = 0; i < 10; i++ ) {
 ```
 
 You can print collections as well ; the output is in a valid json 
-format (UTF-8). However, we are truncating some data and printing non-serializable types e.g debug only; `@see` [coconut/runtime/Printifier.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/runtime/Printifier.hpp)
+format (UTF-8). However, we are truncating some data and printing non-serializable types e.g debug only; `@see` [coconut/runtime/Printifier.hpp](https://github.com/mu578/coconut/blob/master/coconut/runtime/Printifier.hpp)
 
 ```cpp
 
@@ -442,9 +442,9 @@ for (auto jobs = tasks.begin(); jobs != tasks.end(); ++jobs) {
 ```
 All coconut containers define STL like traits and operators:
 - sequence-requirements: `@see` [C++ Standards, ISOCPP](http://www.open-std.org/JTC1/SC22/WG21/)
-- comparison operators : `@see` [coconut/runtime/details/nutrt-nucleus.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/runtime/details/nutrt-nucleus.hpp)
-- iterators and traits :`@see` [coconut/foundation/Array.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/foundation/Array.hpp)
-- iterators and traits : `@see` [coconut/foundation/Dictionary.hpp](https://gitlab.com/mu578/coconut/blob/master/coconut/foundation/Dictionary.hpp)
+- comparison operators : `@see` [coconut/runtime/details/nutrt-nucleus.hpp](https://github.com/mu578/coconut/blob/master/coconut/runtime/details/nutrt-nucleus.hpp)
+- iterators and traits :`@see` [coconut/foundation/Array.hpp](https://github.com/mu578/coconut/blob/master/coconut/foundation/Array.hpp)
+- iterators and traits : `@see` [coconut/foundation/Dictionary.hpp](https://github.com/mu578/coconut/blob/master/coconut/foundation/Dictionary.hpp)
 
 ```cpp
 
